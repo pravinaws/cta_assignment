@@ -1,0 +1,7 @@
+<suite name="TestSuite">
+    <test name="CheckoutTest">
+        <classes>
+            <class name="tests.CheckoutTest" />
+        </classes>
+    </test>
+</suite>
