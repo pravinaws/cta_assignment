@@ -1,93 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-23T13:09:50 IST" name="TestSuite" finished-at="2024-11-23T13:09:50 IST" duration-ms="53">
+  <suite started-at="2024-12-04T14:24:55 IST" name="Default suite" finished-at="2024-12-04T14:25:01 IST" duration-ms="5938">
     <groups>
     </groups>
-    <test started-at="2024-11-23T13:09:50 IST" name="CheckoutTest" finished-at="2024-11-23T13:09:50 IST" duration-ms="53">
-      <class name="tests.CheckoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutTest@58e1d9d]" started-at="2024-11-23T13:09:50 IST" name="setup" finished-at="2024-11-23T13:09:50 IST" duration-ms="9" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.properties" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.properties" is null
-at tests.CheckoutTest.setup(CheckoutTest.java:28)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test started-at="2024-12-04T14:24:55 IST" name="Default test" finished-at="2024-12-04T14:25:01 IST" duration-ms="5938">
+      <class name="com.saucedemo.tests.SauceDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.SauceDemoTest@5ddeb7cb]" started-at="2024-12-04T14:24:55 IST" name="setUp" finished-at="2024-12-04T14:24:58 IST" duration-ms="3138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCheckoutProcess()[pri:0, instance:tests.CheckoutTest@58e1d9d]" started-at="2024-11-23T13:09:50 IST" name="testCheckoutProcess" finished-at="2024-11-23T13:09:50 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.properties" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.properties" is null
-at tests.CheckoutTest.setup(CheckoutTest.java:28)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.saucedemo.tests.SauceDemoTest@5ddeb7cb]" started-at="2024-12-04T14:24:58 IST" name="startTest" finished-at="2024-12-04T14:24:58 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCheckoutProcess -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutTest@58e1d9d]" started-at="2024-11-23T13:09:50 IST" name="teardown" finished-at="2024-11-23T13:09:50 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- startTest -->
+        <test-method signature="testSauceDemo()[pri:0, instance:com.saucedemo.tests.SauceDemoTest@5ddeb7cb]" started-at="2024-12-04T14:24:58 IST" name="testSauceDemo" finished-at="2024-12-04T14:25:01 IST" duration-ms="2232" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.CheckoutTest -->
-    </test> <!-- CheckoutTest -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- testSauceDemo -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.saucedemo.tests.SauceDemoTest@5ddeb7cb]" started-at="2024-12-04T14:25:01 IST" name="endTest" finished-at="2024-12-04T14:25:01 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SauceDemoTest@5ddeb7cb]" started-at="2024-12-04T14:25:01 IST" name="tearDown" finished-at="2024-12-04T14:25:01 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.SauceDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
